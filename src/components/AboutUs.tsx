@@ -1,0 +1,14 @@
+import React from "react";
+
+export function AboutUs() {
+  return (
+    <section className="bg-[#09090b] py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-8 text-center shadow-xl shadow-blue-500/10">
+        <h2 className="text-3xl font-bold text-white mb-6">About Us</h2>
+        <p className="text-zinc-300 leading-relaxed">
+          LET’S GET CONNECTED is a purpose-driven team built on collaboration, trust, and the shared belief that great ideas deserve to become real-world solutions. We bring together individuals who are passionate about innovation, open communication, and meaningful teamwork, creating an environment where every voice is valued and every contribution matters. By combining diverse perspectives with focused execution, we transform concepts into practical outcomes that create measurable impact. Our goal is not just to connect people, but to connect ideas, skills, and ambition—so that together, we consistently turn vision into reality.
+        </p>
+      </div>
+    </section>
+  );
+}
